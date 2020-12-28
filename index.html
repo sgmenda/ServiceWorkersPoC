@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Service Worker Cache Poisoning PoC</title>
+  </head>
+  <body>
+    <h1>Service Worker Cache Poisoning PoC</h1>
+
+    <ul>
+      <li><a href="/ServiceWorkersPoC/private.html" target="_blank">Private Page</a></li>
+      <li>
+        <a href="/ServiceWorkersPoC/attacker-controlled.html" target="_blank"
+          >Page with attacker controlled javascript</a
+        >
+      </li>
+    </ul>
+
+    <p>
+      <strong>How to use?</strong> Vist the private page to see what's on it,
+      and then visit the page with attacker controlled javascript. Then revisit
+      the private page to see if it has been updated.
+    </p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
